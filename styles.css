@@ -1,0 +1,51 @@
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main-header {
+  background-color: white;
+  width: 75%;
+  box-shadow: 2px 2px 2px 2px rgba(25, 25, 25, 0.2);
+  padding: 2rem;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+li h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.img-container {
+  text-align: left;
+  background-color: rgb(126, 203, 203);
+  padding: 12px;
+  width: 4em;
+  height: 4em;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  width: 32px;
+  height: 32px;
+}
+
+.sub-nav-links {
+  text-align: left;
+}
+
+#more-products {
+  color: rgb(95, 175, 175);
+}
