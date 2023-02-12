@@ -1,51 +1,95 @@
 body {
-  background-color: aliceblue;
+  background-color: azure;
   display: flex;
-  justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
+}
+
+.card {
+  width: 35vw;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 32px;
+  box-sizing: border-box;
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
 }
 
-#main-header {
-  background-color: white;
-  width: 75%;
-  box-shadow: 2px 2px 2px 2px rgba(25, 25, 25, 0.2);
-  padding: 2rem;
-}
-
-#nav-links {
-  display: flex;
-  justify-content: space-around;
-}
-
-li h2 {
-  font-weight: bold;
-  font-size: 1.5em;
-  font-family: 'Merriweather Sans', sans-serif;
-}
-
-.img-container {
-  text-align: left;
-  background-color: rgb(126, 203, 203);
-  padding: 12px;
-  width: 4em;
-  height: 4em;
-  border-radius: 2em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.users__image {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border: 5px solid rgb(179, 176, 176);
+  border-radius: 100px;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 80px;
+  z-index: 1;
 }
 
 svg {
-  width: 32px;
-  height: 32px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
 }
 
-.sub-nav-links {
-  text-align: left;
+
+ul {
+  list-style: none;
 }
 
-#more-products {
-  color: rgb(95, 175, 175);
+.user__image {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  border: 3px solid gray;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  background-color: white;
+}
+
+#user-image-1 {
+  top: -10px;
+  left: 10px;
+}
+
+#user-image-2 {
+  top: -10px;
+  left: 125px;
+}
+
+#user-image-3 {
+  top: 90px;
+  left: -25px;
+}
+
+#user-image-4 {
+  top: 90px;
+  left: 160px;
+}
+
+#user-image-5 {
+  top: 160px;
+  left: 70px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+a {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 12px;
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 24px;
 }
